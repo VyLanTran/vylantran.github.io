@@ -1366,6 +1366,23 @@ a.border-btn.btn:hover {
   border-color: none;
 }
 
+/* Wordle*/
+#wordle .work-btn:hover {
+  background-color: white;
+  color: #932745 !important;
+  border-color: none;
+}
+
+#wordle {
+  background-color: #932745;
+}
+
+#wordle .more-details:hover {
+  background-color: white;
+  color: #932745 !important;
+  border-color: none;
+}
+
 
 .sec-div {
   margin-top: 7rem;
