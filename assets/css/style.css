@@ -1030,7 +1030,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 20px 0;
-  background: #f9f9f9;
+  background: #f5f8fd;
 }
 
 .breadcrumbs h2 {
@@ -1108,12 +1108,18 @@ section {
 
 .border-btn {
   background-color: none;
-  border: 1px solid #1A1919;
+  border: 1.5px solid #1A1919;
   border-radius: 0;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.5px;
   padding: 0.5rem 1.2rem;
+}
+
+.border-btn:hover {
+  background-color: #1492E6;
+  color: #F4F4F4 !important;
+  border: 2px solid #1492E6;
 }
 
 .prim-font-color {
@@ -1142,3 +1148,299 @@ a.border-btn.btn:hover {
   color: #149ddd
 }
 
+.work-col {
+  padding: 3rem 3rem;
+}
+
+.work-elem {
+  color: white;
+}
+
+.work-sub {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .side-panel {
+    color: #D8D8D8;
+    border-bottom: #D8D8D8 3px solid;
+    padding-bottom: 0.25rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-left: 0;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    transition: color 0.3s ease-in-out, border-left 0.3s ease;
+  }
+
+  .side-panel.active {
+    color: #1492E6 !important;
+    background-color: none;
+    text-decoration: none;
+    border-bottom: #1492E6 3px solid;
+    border-left: 0;
+  }
+
+  .list-group {
+    flex-direction: row;
+  }
+
+  .side-panel.active {}
+
+  #about {
+    max-width: 90%;
+  }
+
+  /* .ui-img {
+    width: 270px;
+  } */
+
+  .work-sub {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  #hi-text {
+    font-size: 20px;
+  }
+
+  #desc-text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  #arsh-text {
+    font-size: 40px;
+  }
+
+  #tag-line {
+    font-size: 40px;
+  }
+
+  #about {
+    margin-top: 40vh;
+    max-width: 100%;
+  }
+
+  .sec-desc {
+    max-width: 100%;
+  }
+
+  .org-name,
+
+  .time-text,
+
+  .title-name,
+
+  .loc-text {
+    float: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .time-text {
+    margin-bottom: 1.25rem;
+    font-size: 16px;
+  }
+
+  .loc-text {
+    margin-bottom: 2rem;
+  }
+
+  .skill-sub {
+    margin-top: 1.75rem;
+  }
+
+  .work-sub {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .role-desc,
+
+  .ui-img {
+    display: none;
+  }
+
+  #spacing {
+    margin-top: 48rem;
+  }
+
+  .skill-row {
+    margin-top: 1rem !important;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+
+  #main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.prim-font-color {
+  color: #1A1919 !important;
+}
+
+.work-btn {
+  background-color: none;
+  color: white !important;
+  border: 1px solid white;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  padding: 0.5rem 1.2rem;
+}
+
+
+/* Contact Manager */
+#contact-manager .work-btn:hover {
+  background-color: white;
+  color: #1B998B !important;
+  border-color: none;
+}
+
+#contact-manager {
+  background-color: #1B998B;
+}
+
+#contact-manager .more-details:hover {
+  background-color: white;
+  color: #1B998B !important;
+  border-color: none;
+}
+
+/* Royal Cinema */
+#royal-cinema .work-btn:hover {
+  background-color: white;
+  color: #e85656 !important;
+  border-color: none;
+}
+
+#royal-cinema {
+  background-color: #e85656;
+  /* background-color: #49b7bc; */
+}
+
+#royal-cinema .more-details:hover {
+  background-color: white;
+  color: #e85656 !important;
+  border-color: none;
+}
+
+/* Food App */
+#food-app .work-btn:hover {
+  background-color: white;
+  color: #FF8732 !important;
+  border-color: none;
+}
+
+#food-app {
+  background-color: #FF8732;
+}
+
+#food-app .more-details:hover {
+  background-color: white;
+  color: #FF8732 !important;
+  border-color: none;
+}
+
+
+/* Minesweeper*/
+#minesweeper .work-btn:hover {
+  background-color: white;
+  color: #2B2B2B !important;
+  border-color: none;
+}
+
+#minesweeper {
+  background-color: #2B2B2B;
+}
+
+#minesweeper .more-details:hover {
+  background-color: white;
+  color: #2B2B2B !important;
+  border-color: none;
+}
+
+
+.sec-div {
+  margin-top: 7rem;
+}
+
+.project-container {
+  height: 200px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  position: relative;
+}
+
+.img-container .ui-img {
+  width: 100%;
+  position: absolute;
+  height: auto;
+  object-fit: cover;
+}
+
+.minesweeper-img {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  right: 0
+}
+
+.food-img {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  right: 0
+}
+
+a.link {
+  color: white;
+  text-decoration: none;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
+
+.more-details {
+  font-size: 18px;
+  display: inline-block;
+  /* background: #212431; */
+  background: none;
+  border: 1px solid white;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+.more-details:hover {
+  background: #149ddd;
+  color: #fff;
+  text-decoration: none;
+}
+
+.portfolio-container {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+
+}
