@@ -1192,9 +1192,6 @@ a.border-btn.btn:hover {
     max-width: 90%;
   }
 
-  /* .ui-img {
-    width: 270px;
-  } */
 
   .work-sub {
     font-size: 16px;
@@ -1296,6 +1293,24 @@ a.border-btn.btn:hover {
 }
 
 
+/*  Netspire */
+#netspire .work-btn:hover {
+  background-color: white;
+  color: #3b5998 !important;
+  border-color: none;
+}
+
+#netspire {
+  background-color: #3b5998;
+  /* c4a667 */
+}
+
+#netspire .more-details:hover {
+  background-color: white;
+  color: #3b5998 !important;
+  border-color: none;
+}
+
 /* Contact Manager */
 #contact-manager .work-btn:hover {
   background-color: white;
@@ -1390,6 +1405,7 @@ a.border-btn.btn:hover {
 
 .project-container {
   height: 200px;
+  margin-bottom: 72px;
 }
 
 .img-container {
@@ -1460,4 +1476,12 @@ a.link:hover {
   display: flex;
   justify-content: space-between;
 
+}
+
+.project-description {
+  font-size: 18px;
+}
+
+.project-tool {
+  font-size: 12px;
 }
